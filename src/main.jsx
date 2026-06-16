@@ -6,8 +6,8 @@ import "./index.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
-      <App />
+    <BrowserRouter basename="/Frontend-SupMaket-Mag-System">
+    <App />
     </BrowserRouter>
   </StrictMode>
 );
